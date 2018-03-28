@@ -5,14 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.abautista.cartelera.MainActivity">
+    <ImageView
+        android:id="@+id/imPoster"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        />
 
     <TextView
+        android:id="@+id/tvSynopisi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+       app:layout_constraintTop_toBottomOf="@+id/imPoster"
+        app:layout_constraintVertical_bias="0.1"/>
+
 
 </android.support.constraint.ConstraintLayout>

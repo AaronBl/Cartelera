@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Cartelera</string>
+    <string name="host">http://stage-api-yelmocines.cinepolis.com.es/</string>
 </resources>
